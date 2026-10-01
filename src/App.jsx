@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react'
-import birthdaySong from './image/AFR_-_Happy_Birthday_Piano_(mp3.pm).mp3'
 import memory01 from './image/WhatsApp Image 2026-10-01 at 10.30.56 PM.jpeg'
 import memory02 from './image/WhatsApp Image 2026-10-01 at 10.30.56 PM (1).jpeg'
 import memory03 from './image/WhatsApp Image 2026-10-01 at 10.30.56 PM (2).jpeg'
@@ -9,6 +8,8 @@ import memory06 from './image/WhatsApp Image 2026-10-01 at 10.30.56 PM (5).jpeg'
 import memory07 from './image/WhatsApp Image 2026-10-01 at 10.30.56 PM (6).jpeg'
 import memory08 from './image/WhatsApp Image 2026-10-01 at 10.30.56 PM (7).jpeg'
 import memory09 from './image/WhatsApp Image 2026-10-01 at 10.30.56 PM (8).jpeg'
+
+const birthdaySong = new URL('./image/bg song.mp3', import.meta.url).href
 
 const reasons = [
   { number: '01', title: 'Your big heart', text: 'You make the people around you feel seen, safe, and so loved.', color: 'bg-rose-100', mark: '♡', image: memory03 },
@@ -169,7 +170,7 @@ function App() {
               <span className="text-base">✷</span> today is all about you
             </div>
             <h1 className="birthday-heading font-display text-[2.8rem] leading-[.98] tracking-[-.055em] text-rose-950 md:text-7xl lg:text-[5.4rem]">
-              <span className="birthday-heading-line">Happy Birthday,</span><br /><span className="title-highlight">Sujatha! Thangameyyy 💖🎂🎈🥰</span>
+              <span className="birthday-heading-line">Happy Birthday Sujiii,</span><br /><span className="title-highlight">Sujatha! Thangameyyy 💖🎂🎈🥰</span>
             </h1>
             <p className="mt-5 max-w-lg text-base leading-7 text-rose-950/65 sm:mt-7 sm:text-xl sm:leading-8">
               To the one who makes life brighter just by being in it: I hope your day is as lovely, loud, and wonderfully you as you are.
