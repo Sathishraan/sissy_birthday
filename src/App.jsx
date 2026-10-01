@@ -170,7 +170,7 @@ function App() {
               <span className="text-base">✷</span> today is all about you
             </div>
             <h1 className="birthday-heading font-display text-[2.8rem] leading-[.98] tracking-[-.055em] text-rose-950 md:text-7xl lg:text-[5.4rem]">
-              <span className="birthday-heading-line">Happy Birthday Sujiii,</span><br /><span className="title-highlight">Sujatha! Thangameyyy 💖🎂🎈🥰</span>
+              <span className="birthday-heading-line">Happy Birthday,</span><br /><span className="title-highlight">Sujatha! Thangameyyy 💖🎂🎈🥰</span>
             </h1>
             <p className="mt-5 max-w-lg text-base leading-7 text-rose-950/65 sm:mt-7 sm:text-xl sm:leading-8">
               To the one who makes life brighter just by being in it: I hope your day is as lovely, loud, and wonderfully you as you are.
